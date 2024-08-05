@@ -17,18 +17,32 @@ int main(){
 
    //logical operator = || (OR) checks if at least one condition is true
 
-    float temp = 25;
+    /*float temp = 2100;
     bool sunny = true; //if u make this false the answer will come out as the other one
 
-    if (temp <=0){
+    if (temp <=0 || temp >=30){
         printf("\n The weather is bad!");
     }
-    else if(temp >=30){
-        printf("\nThe weather is bad!");
-    }
+   
 
     else{
         printf("the weather is good!");
+    }*/
+
+    //logical operator = ! (NOT) reverses the state of condition
+
+    bool sunny = true;      //the value wil always come out as the opposite
+
+    /*if(sunny == 1){
+        printf("\n Is's sunny outside!");
+    }*/
+     if(!sunny){
+        printf("\n Is's sunny outside!");
+     }
+    else {
+        printf("\nIt's cloudy outside");
     }
+
+
     return 0;
 }
