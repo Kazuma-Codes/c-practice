@@ -5,9 +5,9 @@ int main(){
     // printf ("%0.2lf",prices[3]);
     // printf ("%0.2lf",prices[4]);
 
-    for(int i = 0; i<5;i++)
+    for(int i = 0; i<5 ; i++)
 {
-    printf("%0.2lf\n",prices[i]);
+    printf("%0.2lf\n", prices[i]);
 }
     return 0;
 }
